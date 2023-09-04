@@ -1,7 +1,7 @@
 Sample notebok from [LangChain: Chat with Your Data](https://learn.deeplearning.ai/langchain-chat-with-your-data) using Redis as vectorstore for RAG and local LLM and embeddings.
 
 
-* Other than the python, jupyter you will need. 
+* Other than the python 3.10, jupyter you will need. 
 	
 	* Redis Stack `docker run -it --name redis-stack -p 6379:6379 -p 8001:8001  --rm redis/redis-stack:7.2.0-v0`
 	* LLM model
@@ -23,8 +23,8 @@ Sample notebok from [LangChain: Chat with Your Data](https://learn.deeplearning.
   
   | Model                                                        | Notes                                                        |
   | ------------------------------------------------------------ | ------------------------------------------------------------ |
-  | [llama-2-7b-chat.ggmlv3.q6_K.bin](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q6_K.bin) | If you do not have a powerful GPU or 8GB RAM (M1 Max performance ~30 tokens/second). This is the smallest llama-2 model |
-  | [llama-2-13b-chat.ggmlv3.q6_K.bin](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGML/blob/main/llama-2-13b-chat.ggmlv3.q6_K.bin) | 16GB RAM and GPU (M1 Max performance ~16  tokens/second)     
+  | [llama-2-7b-chat.Q6_K.gguf](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF/resolve/main/llama-2-7b-chat.Q6_K.gguf) | If you do not have a powerful GPU or 8GB RAM (M1 Max performance ~30 tokens/second). This is the smallest llama-2 model |
+  | [llama-2-13b-chat.Q6_K.gguf](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF/resolve/main/llama-2-13b-chat.Q6_K.gguf) | 16GB RAM and GPU (M1 Max performance ~16  tokens/second)     
   
   ### <a name="inference">Inference Engine</a>
   
