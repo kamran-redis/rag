@@ -15,6 +15,15 @@ Sample notebok from [LangChain: Chat with Your Data](https://learn.deeplearning.
   pip install notebook
   jupyter notebook
 ```
+#### OR use frozen versions
+
+```
+  python3.10 -m venv venv
+	. ./venv/bin/activate
+  pip install -r requirements.txt
+  jupyter notebook
+```
+
 
   ### LLM Model
   
